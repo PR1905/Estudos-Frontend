@@ -1,0 +1,47 @@
+#item1 a{ 
+    color: red;
+}
+
+#item1 a:visited{ 
+    color: rgb(0, 255, 64);
+
+}
+
+#item2 h1::before{ 
+    content: "\1F680";
+    
+}
+
+#item3 li:nth-child(2n+1){
+    background-color: red;
+    width: 42px;
+}
+
+#item4 p{
+    text-transform: uppercase;
+}
+
+.item4 {
+    color: red;
+}
+
+#item5 button:disabled{
+    background-color: grey;
+}
+
+#item5 button:enabled{
+    cursor: pointer;
+}
+
+.atributo {
+    background-color: red;
+    width: 55px;
+}
+
+#item7 ul:nth-child(2){
+    background-color: red;
+}
+
+#item8 input:focus{
+    background-color: gray;
+}
